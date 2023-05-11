@@ -1,0 +1,106 @@
+
+.display-block-example span{
+    display: block;
+}
+
+.display-inline-example{
+    margin: 10px;
+}
+
+.display-inline-example .inline {
+    display: inline;
+}
+.display-inline-example ul li {
+    display: inline;
+}
+
+.removed-default-style-list ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.list-styles ul{
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: upper-roman; */
+    list-style-type: lower-alpha;
+}
+
+.widthTest {
+    border: 1px solid black;
+    /* width:1000px; */
+    max-width: 1000px;
+    background-color: yellow;
+}
+
+/* .boxModel {
+    background-color: yellow;
+    border: 10px solid green;
+    padding: 20px;
+    margin: 20px;;
+} */
+
+.boxModel {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.outlineExample {
+    width: 430px;
+    height: 300px;
+    outline: 2px solid green;
+    padding: 10px;
+    margin: 10px;
+    border: 2px dotted blue;
+    outline-offset: 15px;
+}
+
+.textProperties {
+    margin-top: 20px;
+    width: 400px;
+    background-color: yellow;
+    color: green;
+}
+
+
+.textProperties h1 {
+    color: blue;
+}
+
+.textProperties p.uppercase {
+    text-transform: uppercase;
+}
+
+.textProperties p.lowercase {
+    text-transform: lowercase;
+}
+
+.textProperties p.capitalize {
+    text-transform: capitalize;
+}
+
+p.white-space {
+    white-space: nowrap;
+}
+
+
+.links {
+    margin: 10px;
+}
+
+.links .link1:link, .link1:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: wait; /**progress **/ 
+}
+
+.links .link1:hover, :active {
+    background-color: red;
+}
+
