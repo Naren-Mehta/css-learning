@@ -1,0 +1,36 @@
+.parent {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap-reverse; */
+
+    /* flex-flow: row wrap;
+    justify-content: space-evenly; */
+
+    /* align-items: center;
+    justify-content: center; */
+
+
+    /* flex-wrap: wrap; */
+    /* align-content: space-evenly; */
+
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+}
+
+.child {
+    border: 2px solid black;
+    /* height: 200px;
+    width: 200px; */
+    background-color: pink;
+    margin: 5px;
+    padding: 5px;
+}
+
+.child1 {
+    align-self: flex-start;
+}

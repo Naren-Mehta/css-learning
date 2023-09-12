@@ -1,0 +1,31 @@
+
+
+body {
+    background: lightgray;
+}
+
+
+.wrapper {
+    background: white;
+    padding: 20px;
+    /* border: 2px black solid; */
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+
+.service p, .service h2 {
+    color: #999;
+    /* margin: 2px 0; */
+    text-align: center;
+}
+
+.service {
+    float: left;
+    border: 2px green solid;
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}

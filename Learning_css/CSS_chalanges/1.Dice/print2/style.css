@@ -1,0 +1,23 @@
+.parent {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Solution 1======================== */
+
+/* .child1 {
+    align-self: flex-start;
+}
+
+.child2 {
+    align-self: flex-end;
+} */
+
+
+/* Solution 2======================== */
+.child:nth-of-type(2) {
+    align-self: flex-end;
+}

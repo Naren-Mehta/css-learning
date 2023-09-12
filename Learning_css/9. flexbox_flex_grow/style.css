@@ -1,0 +1,32 @@
+.parent {
+    border: 2px solid black;
+    height: 400px;
+    width: 800px;
+    background-color: green;
+    display: flex;
+
+    align-items: flex-start;
+}
+
+.child {
+    border: 2px solid black;
+    background-color: pink;
+    /* margin: 5px; */
+    padding: 5px;
+    flex-grow: 3;
+}
+
+.child1 {
+}
+
+.child2 {
+    flex-grow: 4;
+}
+
+.child3 {
+    
+}
+
+.child4 {
+    
+}

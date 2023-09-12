@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    background-color: #421b9b;
+}
+
+footer {
+    background-color: #cbbcf6;
+}
+
+header,
+footer,
+section {
+    text-align: center;
+    padding: 32px;
+	color: white;
+}
+
+
+section {
+    flex: 1 1 0px;
+    background-color: #a06ee1;
+    overflow: auto;
+   -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,33 @@
+.parent {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    display: flex;
+
+    /* Align item will applicatble for all the child elements  */
+    /* align-items: center;  */
+}
+
+.child {
+    border: 2px solid black;
+    background-color: pink;
+    margin: 5px;
+    padding: 5px;
+}
+
+.child1 {
+    align-self: center;
+}
+
+.child2 {
+    align-self: flex-end;
+}
+
+.child3 {
+    align-self: flex-start;
+}
+
+.child4 {
+    align-self: stretch;
+}
