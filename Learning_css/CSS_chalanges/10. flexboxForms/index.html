@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="other_form_styles.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
 </head>
+
 <body>
-    
+    <form>
+        <h2>Credit Card Form</h2>
+      
+        <div class="fieldset">
+          <input id="name" type="text" placeholder="Name on Card">
+        </div>
+      
+        <div class="fieldset input-row">
+          <div class="credit-card-number-container">
+            <input id="credit-card-number" type="number" placeholder="Credit Card Number">
+          </div>
+          <div>
+            <input id="cvc" type="number" placeholder="CVC">
+          </div>
+        </div>
+      
+        <div class="fieldset input-row">
+          <div>
+            <input type="text" placeholder="Exp. Month">
+          </div>
+          <div>
+            <input type="text" placeholder="Exp. Year">
+          </div>
+        </div>
+      
+        <button type="submit">Buy for $99.99</button>
+      </form>
 </body>
+
 </html>
