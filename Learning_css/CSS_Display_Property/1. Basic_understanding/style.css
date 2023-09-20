@@ -1,0 +1,28 @@
+.container {
+    border: 1px solid black;
+    /* width: 1000px; */
+    /* height: 400px; */
+}
+
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background: green;
+    margin: 2px;
+    display: inline-block;
+}
+
+#box3 {
+    /* position: relative to its normal position and will leave a gap at its normal position*/
+    /* position: relative; */
+
+     /* position: absolute, is relative to it first parent */
+    /* position: absolute; */
+    /* top: 34px;
+    left: 34px; */
+
+    position: fixed;
+    right: 5px;
+   
+}

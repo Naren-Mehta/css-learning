@@ -1,0 +1,19 @@
+ .search-container {
+    display: flex;
+  }
+
+
+  input {
+    flex: 1 1 0px;
+  
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  
+  button {
+    flex: 0 0 auto;
+  
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }

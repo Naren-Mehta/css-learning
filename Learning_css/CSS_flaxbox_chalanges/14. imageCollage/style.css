@@ -1,0 +1,19 @@
+html, body, section {
+    height: 100%;
+ }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+
+    /* flex: 1 1 0px; */
+ }
